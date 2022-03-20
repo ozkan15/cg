@@ -1,0 +1,54 @@
+.card {
+    width: 100%;
+    background-color: #191e2e;
+    border-radius: 8px;
+    border: 1px solid #313c60;
+}
+
+.cardHeader {
+    position: relative;
+}
+
+#num {
+    font-size: 30px;
+}
+
+.voteBox {
+    font-size: 21px;
+    border-radius: 8px;
+    position: absolute;
+    top: 37%;
+    height: 26%;
+    width: 25%;
+    display: flex;
+    top: 45%;
+    left: 5%;
+    background-color: beige;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.cardTitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: white;
+    margin-bottom: 10px;
+    min-height: 63px;
+    font-size: 21px;
+    overflow: hidden;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rightPadding {
+    margin-right: 1;
+}

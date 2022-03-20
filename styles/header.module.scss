@@ -1,0 +1,15 @@
+.pageHeader {
+    background-color: #0e1018;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    min-height: 80px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+}

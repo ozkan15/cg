@@ -1,0 +1,41 @@
+#bottomNav {
+    min-height: 60px;
+    display: none;
+    background-color: #08090e;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    #bottomNav {
+        display: flex;
+    }
+}
+
+.menuItemContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex: 1 1;
+    flex: 1 1;
+}
+
+.menuItem {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-weight: 300;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
