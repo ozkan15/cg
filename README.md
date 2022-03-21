@@ -1,1 +1,1 @@
-# cg
+# community case study
