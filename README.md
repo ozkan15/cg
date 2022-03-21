@@ -1,1 +1,1 @@
-# community case study
+# case study
