@@ -20,7 +20,7 @@ export default function handler(
     try {
       form.parse(req, (err, fields, files) => {
         try {
-          const newTournament = {
+          const newTournament:Tournament = {
             __typename: "Tournament",
             id: randomUUID(),
             name: fields.name as string,
@@ -35,7 +35,7 @@ export default function handler(
             coverImage: (files?.coverImage as any)?.newFilename,
             deadline: fields.deadline as string,
             prize: Number(fields.prize as string),
-            
+            lastVoteTime: "",
             vote: 0
           };
 
